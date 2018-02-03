@@ -131,23 +131,24 @@ function states() {
             alert('Awesome, ' + name + ', you guessed correctly! I have lived in Texas, Wisconsin, Tennessee, Ohio, Alabama, Missouri, and Georgia. Way to go!');
             break;
         }
-        else if (statesLived.indexOf(guess) === -1) {
-            alert('Nice try, ' + name + ', but no cigar... try again! You have used ' + counter + ' out of six attempts.');
-
-        }
         else if (counter === 5) {
             alert('Sorry, ' + name + ' , you\'ve used up all your tries - I have lived in Texas, Wisconsin, Tennessee, Ohio, Alabama, Missouri, and Georgia.');
             break;
         }
+        else if (statesLived.indexOf(guess) === -1) {
+            alert('Nice try, ' + name + ', but no cigar... try again! You have used ' + (counter + 1) +' out of six attempts.');
+
+        }
+        
     }
 }
 
-adopt();
-marry();
-pet();
-ice();
-travels();
-knee();
+// adopt();
+// marry();
+// pet();
+// ice();
+// travels();
+// knee();
 states();
 
 

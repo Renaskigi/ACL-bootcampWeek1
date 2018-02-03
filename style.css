@@ -8,16 +8,16 @@ header {
     color: green;
 }
 
-ul {
+ul,.musical_artists {
     color: darkblue;
     padding: 30px;
     margin-left: 40%;
     margin-right: 40%;
 }
-.musical_artists {
+/* .musical_artists {
     color: darkblue;
     text-align: center;
     padding: 30px;
     margin-left: 40%;
     margin-right: 40%;
-}
+} */
