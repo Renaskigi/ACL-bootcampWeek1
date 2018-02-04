@@ -1,23 +1,24 @@
 body {
-    background-color:lightgrey;
-    text-align: center;
-
+    background-color:#904c4c;;
 }
 
 header {
     color: green;
 }
 
-ul,.musical_artists {
+ul {
+    border: 1px solid black;
     color: darkblue;
-    padding: 30px;
-    margin-left: 40%;
-    margin-right: 40%;
 }
-/* .musical_artists {
+
+.musical_artists {
+    border: 1px solid black;
     color: darkblue;
     text-align: center;
     padding: 30px;
     margin-left: 40%;
     margin-right: 40%;
-} */
+}
+#jobs {
+    border: 1px solid black;
+}

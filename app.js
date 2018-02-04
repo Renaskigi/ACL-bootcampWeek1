@@ -2,8 +2,6 @@
 let attemptsCorrect = 0;
 //Capture their name
 
-// let name = null
-
 function userName() {
     const name = prompt ('Hi! What\'s your name?');
     console.log('The player\'s name is ' + name + '.');
@@ -136,10 +134,9 @@ function states() {
             break;
         }
         else if (statesLived.indexOf(guess) === -1) {
-            alert('Nice try, ' + name + ', but no cigar... try again! You have used ' + (counter + 1) +' out of six attempts.');
+            alert('Nice try, ' + name + ', but no cigar... try again! You have used ' + (counter + 1) + ' out of six attempts.');
 
         }
-        
     }
 }
 
@@ -149,8 +146,8 @@ function states() {
 // ice();
 // travels();
 // knee();
-states();
+// states();
 
 
 //Tally of total guesses correct
-alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
+//alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
