@@ -11,8 +11,6 @@ function userName() {
 const name = userName();
 console.log(name);
 
-alert('Hello, ' + name + '. Let\'s see how much you know about me.  Ready?');
-
 //Adopted? Y/N
 
 function adopt() {
