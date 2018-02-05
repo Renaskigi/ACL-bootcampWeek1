@@ -8,6 +8,8 @@ function userName() {
     return name;
 }
 
+alert('Hello, ' + name + '. Let\'s see how much you know about me.  Ready?');
+
 const name = userName();
 console.log(name);
 
@@ -149,5 +151,5 @@ knee();
 states();
 
 
-//Tally of total guesses correct
+//Tally of total attempts correct
 alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
