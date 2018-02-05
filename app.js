@@ -7,7 +7,7 @@ function userName() {
     console.log('The player\'s name is ' + name + '.');
     return name;
 }
-
+alert('Hello, ' + name + '. It\'s time we tested your knowledge about me. Ready? Here we go...');
 const name = userName();
 console.log(name);
 
@@ -140,14 +140,14 @@ function states() {
     }
 }
 
-// adopt();
-// marry();
-// pet();
-// ice();
-// travels();
-// knee();
-// states();
+adopt();
+marry();
+pet();
+ice();
+travels();
+knee();
+states();
 
 
 //Tally of total guesses correct
-//alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
+alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
