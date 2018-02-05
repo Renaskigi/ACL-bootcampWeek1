@@ -140,14 +140,14 @@ function states() {
     }
 }
 
-// adopt();
-// marry();
-// pet();
-// ice();
-// travels();
-// knee();
-// states();
+adopt();
+marry();
+pet();
+ice();
+travels();
+knee();
+states();
 
 
 //Tally of total guesses correct
-//alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
+alert('You got ' + attemptsCorrect + ' questions correct, ' + name + '. Better luck next time!');
