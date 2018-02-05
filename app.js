@@ -1,6 +1,6 @@
 'use strict';
 let attemptsCorrect = 0;
-//Capture their name
+//Capture name of player
 
 function userName() {
     const name = prompt ('Hi! What\'s your name?');
