@@ -8,10 +8,10 @@ function userName() {
     return name;
 }
 
-alert('Hello, ' + name + '. Let\'s see how much you know about me.  Ready?');
-
 const name = userName();
 console.log(name);
+
+alert('Hello, ' + name + '. Let\'s see how much you know about me.  Ready?');
 
 //Adopted? Y/N
 
